@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+body {
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    font-weight: normal;
+    /* font: normal 20px 'Roboto', sans-serif; */
+    /* text-decoration: line-through; */
+    /* font-style: italic; */
+    /* letter-spacing: 2px; */
+    /* word-spacing: 20px; */
+    color: #0f141e;
+    background: #f1f1f1;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: grey;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.info-text h4 {
+    margin-bottom: 10px;
+}
+
+.info-text p {
+    font-style: italic;
+    font-weight: bold;
+    color: #86898f;
+    margin: 0;
+}
+
+@media (max-width: 660px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+
+.btn {
+    background: #111;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
